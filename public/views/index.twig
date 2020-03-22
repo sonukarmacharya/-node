@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+        <body>
+        <form method='post' action='/'>
+        Username:<input type='text' name='username'><br>
+        
+        Password:<input type='text' name='password'><br>
+        {% if (error.password)%}
+        <p>{{ error.password.msg }}</p>
+        {% endif %}
+        Confirm Password:<input type='text' name='confirmpassword'>
+        <input type='submit' name='submit'>
+        </form></body>
+</html>

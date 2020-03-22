@@ -1,0 +1,15 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+}
+
+img{
+    height: 80%;
+    width: 100%;
+}
+
+.sec{
+    margin-top: 0em;
+    text-align: center;
+    background-color: darkgoldenrod;
+}
